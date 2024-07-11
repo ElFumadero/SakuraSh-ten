@@ -31,4 +31,6 @@ Commandes interactives pour obtenir des informations détaillées sur les jeux �
 
 !credits : Affiche le nom du développeur 😎.
 
+!aide : Affiche une liste des commandes disponibles et leur utilisation 📜.
+
 !comparer (nom du jeu) : Compare les prix d'un jeu et affiche les meilleures offres disponibles 📊.

@@ -58,7 +58,7 @@ async def developpeur(ctx):
 async def aide(ctx):
     embed = discord.Embed(title="Commandes du Bot", description="Voici la liste des commandes disponibles:")
     embed.add_field(name="!ping", value="Vérifie si le bot est en ligne", inline=False)
-    embed.add_field(name="!comparer", value="Compare les prix d'un jeu et affiche les meilleures offres disponibles ", inline=False)
+    embed.add_field(name="!comparer (nom du jeux)", value="Compare les prix d'un jeu et affiche les meilleures offres disponibles ", inline=False)
     embed.add_field(name="!credits", value="Affiche le nom du développeur", inline=False)
     await ctx.send(embed=embed)
 
